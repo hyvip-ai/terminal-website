@@ -10,6 +10,7 @@ import {
   linkedin,
   twitter,
   github,
+  portfolio,
 } from './command.js';
 
 let before = document.getElementById('before');
@@ -188,6 +189,10 @@ function commander(cmd) {
     case 'twitter':
       addLine('Opening Twitter...', 'color2', 0);
       newTab(twitter);
+      break;
+    case 'portfolio':
+      addLine('Opening Portfolio...', 'color2', 0);
+      newTab(portfolio);
       break;
     default:
       addLine(

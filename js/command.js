@@ -1,22 +1,15 @@
-const portfolio = 'https://rajatmondalportfolio.vercel.app/';
+export const portfolio = 'https://rajatmondalportfolio.vercel.app/';
 export const linkedin = 'https://www.linkedin.com/in/rajat-mondal-a7abb8199/';
 export const github = 'https://github.com/hyvip-ai';
 export const twitter = 'https://twitter.com/hyvip_ai';
 
-const aimagenerator = 'https://imagegeneratorai-6e92d.web.app/';
-const blockchain = 'https://blockchainapp-4e293.web.app/';
-const guzheng =
-  'https://app.engati.com/static/standalone/bot.html?bot_key=63ef367dfa364830&env=p';
-const iserv =
-  'https://www.figma.com/proto/utxhK2W3AYMe2FVdEgIaGw/SAAD-Prototype?node-id=0%3A1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=10%3A138&show-proto-sidebar=1';
-const aqualert =
-  'https://www.figma.com/proto/XKmlWK1PPpaWHPGONSpZfn/OH-Water-Pollution?node-id=431%3A371&scaling=scale-down&page-id=414%3A2&starting-point-node-id=431%3A371';
-const connectfour = 'https://github.com/bbkx226/Games/blob/main/connectfour.py';
-
-const pong = 'https://github.com/bbkx226/Games/blob/main/pong.py';
-const snake = 'https://github.com/bbkx226/Games/blob/main/snake.py';
-const tetris = 'https://github.com/bbkx226/Games/blob/main/tetris.py';
 const discord = 'https://github.com/hyvip-ai/discord__bot';
+const react_chat_app = 'https://react-chat-by-rajat.netlify.app/';
+const shopify = 'https://github.com/hyvip-ai/Shopify-clone';
+const realtime_collaboration = 'https://github.com/hyvip-ai/socket';
+const exam = 'https://react-exam-app.netlify.app/';
+const sorting_algorithm_visualizer =
+  'https://sorting-visualizer-by-rajat.netlify.app/';
 
 export const help = [
   '+========================================================================================+',
@@ -34,6 +27,7 @@ export const help = [
   '| linkedin   | Checkout my LinkedIn profile for the latest updates!                      |',
   '| github     | Discover more projects on my GitHub profile                               |',
   '| twitter    | Contact me via Twitter                                                    |',
+  '| portfolio  | Discover more about me.                                                   |',
   '| yousuck    | Unveil the obscurity that lies within me.                                 |',
   '+========================================================================================+',
 ];
@@ -73,15 +67,20 @@ export const hyvipAi = [
 
 export const projects = [
   '<br>',
-  '<span class="command">Code Projects</span>',
+  '<span class="command">Projects</span>',
   '<a href="' + discord + '" target="_blank">Discord Bot' + '</a>',
+  '<a href="' + react_chat_app + '" target="_blank">React Chat App' + '</a>',
   '<p class="terminal">Terminal Website (The one you\'re using right now!)</p>',
-  '<a href="' + aimagenerator + '" target="_blank">AI Image Generator' + '</a>',
+  '<a href="' + shopify + '" target="_blank">Shopify clone' + '</a>',
   '<a href="' +
-    blockchain +
-    '" target="_blank">Blockchain Web3 Application' +
+    realtime_collaboration +
+    '" target="_blank">RealTime Collaboration' +
     '</a>',
-  '<a href="' + guzheng + '" target="_blank">Guzheng Chatbot' + '</a>',
+  '<a href="' + exam + '" target="_blank">Exam Website' + '</a>',
+  '<a href="' +
+    sorting_algorithm_visualizer +
+    '" target="_blank">Sorting Algorithm Visualizer' +
+    '</a>',
   '<br>',
 ];
 
