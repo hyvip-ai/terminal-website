@@ -1,7 +1,7 @@
 const portfolio = 'https://rajatmondalportfolio.vercel.app/';
-const linkedin = 'https://www.linkedin.com/in/rajat-mondal-a7abb8199/';
-const github = 'https://github.com/hyvip-ai';
-const twitter = 'https://twitter.com/hyvip_ai';
+export const linkedin = 'https://www.linkedin.com/in/rajat-mondal-a7abb8199/';
+export const github = 'https://github.com/hyvip-ai';
+export const twitter = 'https://twitter.com/hyvip_ai';
 
 const aimagenerator = 'https://imagegeneratorai-6e92d.web.app/';
 const blockchain = 'https://blockchainapp-4e293.web.app/';
@@ -23,7 +23,7 @@ export const help = [
   '| Commands   | Descriptions                                                              |',
   '+========================================================================================+',
   '| whois      | Who is Rajat Mondal?                                                      |',
-  '| hyvipAi   | Discover more about me                                                    |',
+  '| hyvipAi    | Discover more about me                                                    |',
   '| projects   | View Coding Projects                                                      |',
   '| social     | Display Social Networks                                                   |',
   '| history    | View command history                                                      |',
@@ -83,19 +83,6 @@ export const projects = [
     '</a>',
   '<a href="' + guzheng + '" target="_blank">Guzheng Chatbot' + '</a>',
   '<br>',
-  '<span class="command">Figma Prototypes</span>',
-  '<a href="' +
-    iserv +
-    '" target="_blank">Cleaning Service System Prototype' +
-    '</a>',
-  '<a href="' + aqualert + '" target="_blank">Aqua Alert' + '</a>',
-  '<br>',
-  '<span class="command">Mini games</span>',
-  '<a href="' + connectfour + '" target="_blank">Connect Four' + '</a>',
-  '<a href="' + pong + '" target="_blank">Pong' + '</a>',
-  '<a href="' + snake + '" target="_blank">Snake' + '</a>',
-  '<a href="' + tetris + '" target="_blank">Tetris' + '</a>',
-  '<br>',
 ];
 
 export const social = [
@@ -108,7 +95,7 @@ export const social = [
     github +
     '" target="_blank">GitHub/hyvip-ai' +
     '</a>',
-  '<span class="command">Twitter</span>       <a href="' +
+  '<span class="command">Twitter</span>        <a href="' +
     twitter +
     '" target="_blank">Twitter/Rajat Mondal' +
     '</a>',

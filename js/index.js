@@ -7,13 +7,18 @@ import {
   suggestion,
   whois,
   yousuck,
+  linkedin,
+  twitter,
+  github,
 } from './command.js';
 
-const before = document.getElementById('before');
+let before = document.getElementById('before');
 const liner = document.getElementById('liner');
 const command = document.getElementById('typer');
 const textarea = document.getElementById('texter');
 const terminal = document.getElementById('terminal');
+
+const email = 'mailto:rm2932002@gmail.com';
 
 let git = 0;
 export let pw = false;
